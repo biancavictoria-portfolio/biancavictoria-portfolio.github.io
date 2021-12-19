@@ -13,6 +13,7 @@ h1{
     padding: 0.7em;*/
     float: left;
     padding-right: 8.5px;
+    font-weight: bold;
 }
 
 /* Text alongside images */
@@ -22,7 +23,7 @@ h1{
     font-family: 'Cairo', sans-serif;
     font-size: 1.3em;
     text-align: left;
-    background: #f5f51b;
+    background: #1bd4f5;
     margin: -100px 0px -5px 0px;
     padding: 3px;
     padding-left: 20px;
@@ -31,7 +32,7 @@ h1{
 }
 
 .textSubHead{
-    color: #ffffff;
+    color: #000000;
     font-family: 'Cairo', sans-serif;
     font-size: 1em;
     text-align: left;
@@ -50,7 +51,7 @@ h1{
     /*float: right;*/
     /*background-color: #f6f9fc;*/
     overflow: hidden;
-    color: #ffffff;
+    color: #000000;
     font-size: 1em;
     font-family: 'Cairo', sans-serif;
     /* background-color: rgb(0, 0, 0); */
@@ -61,14 +62,14 @@ h1{
 }
 
 h4{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 0px;
     font-weight: bold;
 }
 
 h5{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 0px;
     font-weight: normal;
@@ -78,7 +79,7 @@ h5{
 body {
     /* background: linear-gradient(358deg, #2f2f2f, #000000); */
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(47,47,47,1) 29%, rgba(59,59,59,1) 100%) fixed;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(245, 245, 245) 29%, rgb(241, 243, 245) 100%) fixed;
 }
 
 

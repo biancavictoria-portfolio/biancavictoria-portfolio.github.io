@@ -5,13 +5,13 @@
     /* float: center; */
     /*background-color: #f6f9fc;*/
     overflow: hidden;
-    padding-bottom: 10px;
+    /* padding-bottom: 5px; */
 }
 
 /* TEXT */
 .midnav a {
     float: center;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 0px 16px;
     text-decoration: none;
@@ -24,13 +24,13 @@
 /* HOVERED BY MOUSE */
 .midnav a:hover {
     background-color: rgb(163, 163, 163); /*background hover*/
-    color: rgb(255, 255, 255);           /*font color hover*/
+    color: rgb(41, 41, 41);           /*font color hover*/
 }
 
 /* TAB COLOR WHEN ON THAT PAGE */
 .midnav a.active{
     /*background-color: #f5f51b;*/
-    color: #f5f51b;
+    color: #1bd4f5;
     font-weight: normal;
 }
 
@@ -49,7 +49,7 @@
 
 /* Page content */
 .content {
-  padding: 16px;
+  /* padding: 16px; */
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -58,7 +58,7 @@
   top: 0;
   width: 75%;
   justify-content: center;
-  background-color: rgba(0,0,0,1);
+  background-color: rgb(255, 255, 255);
   
 }
 

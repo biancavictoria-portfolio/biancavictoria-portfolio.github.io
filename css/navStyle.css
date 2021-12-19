@@ -10,7 +10,7 @@
 /* TEXT */
 .topnav a {
     float: left;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
@@ -23,12 +23,12 @@
 /* HOVERED BY MOUSE */
 .topnav a:hover {
     background-color: rgb(163, 163, 163); /*background hover*/
-    color: rgb(255, 255, 255);           /*font color hover*/
+    color: rgb(41, 41, 41);           /*font color hover*/
 }
 
 /* TAB COLOR WHEN ON THAT PAGE */
 .topnav a.active{
     /*background-color: #f5f51b;*/
-    color: #f5f51b;
+    color: #1bd4f5;
     font-weight: normal;
 }

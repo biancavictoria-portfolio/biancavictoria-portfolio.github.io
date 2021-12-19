@@ -5,7 +5,7 @@ function imageBigger() {
 
   // Get the image and insert it inside the modal - use its "alt" text as a caption
   // Images
-  var img = document.getElementById("vgdc1");
+  // var img = document.getElementById("vgdc1");
   var img2 = document.getElementById("vgdc2");
   var img3 = document.getElementById("vgdc3");
   var img4 = document.getElementById("vgdc4");
@@ -17,11 +17,11 @@ function imageBigger() {
   var captionText = document.getElementById("caption");
 
   // Add onclick for each picture
-  img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-  }
+  // img.onclick = function(){
+  //   modal.style.display = "block";
+  //   modalImg.src = this.src;
+  //   captionText.innerHTML = this.alt;
+  // }
 
   img2.onclick = function(){
     modal.style.display = "block";

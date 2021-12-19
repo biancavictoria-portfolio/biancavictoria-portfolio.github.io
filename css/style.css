@@ -17,7 +17,7 @@ html{
 
 
 h1{
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-family: 'Cairo', sans-serif;
     /*font-weight: bold;*/
@@ -31,12 +31,13 @@ h1{
 
 
 h2{
-    color: #f5f51b;
+    color: #1bd4f5;
     text-align: left;
     font-family: 'Cairo', sans-serif;
     font-weight: normal;
     font-size: 17px;
     padding: 24px 10px 0px;
+    font-weight: bold;
 }
 
 h4{
@@ -63,6 +64,3 @@ h5{
 }
 
 
-
-//the best games aren't created by a team,
-//but games are best created by a team
