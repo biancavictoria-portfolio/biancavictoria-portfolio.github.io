@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Bianca Ysabelle Victoria
+EMAIL: byvictor@uci.edu
+-->
+
+<head>
+  <!-- RESPONSIVE DESIGN -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8">
+  <meta name="author" content="Bianca Victoria">
+  <meta name="description" content="Graphic design portfolio">
+   <!-- you would link to an external stylesheet here! -->
+
+  <!-- STYLESHEETS -->
+  <!-- Font Styles -->
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <!-- Position Style -->
+  <link href="css/site-style.css" rel="stylesheet" type="text/css"/>
+  <!-- Position Styles -->
+  <link href="css/slider.css" rel="stylesheet" type="text/css"/>
+  <!-- Navigation Bar Style -->
+  <link href="css/navStyle.css" rel="stylesheet" type="text/css"/>
+  <!-- 2nd Navigation Bar Style -->
+  <link href="css/midnavStyle.css" rel="stylesheet" type="text/css"/>
+  <!-- About Style -->
+  <!-- <link href="css/about.css" rel="stylesheet" type="text/css"/>    -->
+  <!-- image style -->
+  <link href="css/imagestyle.css" rel="stylesheet" type="text/css"/>
+
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Mukta" rel ="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel ="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cairo" rel ="stylesheet">
+
+   <!-- you would also link to Bootstrap here! -->
+  <title>Bianca Victoria Portfolio</title>
+  <script src="jquery.min.js"></script>
+  <script type="text/javascript" src="js/icssc.js"></script>
+  <style>
+
+    
+  </style>
+</head>
+<body>
+
+  <!-- Fixes bg problem, but now blocks other components-->
+  
+
+  <div style="width: 100%;">
+    <div style="width: 50%; height: 100px; float: left; "> 
+        <h1> BIANCA VICTORIA </h1>
+        <h2>Game Producer, 2D Artist</h2>
+    </div>
+    <div style="margin-left: 50%; height: 100px; padding: 0px 0px 0px"> 
+        <div class="topnav">
+          <a href="index.html">VIDEO GAME PROJECTS</a>
+          <a class="active" href="VideoGameDevelopmentClub.html">SOCIAL MEDIA & GRAPHIC DESIGN</a>
+          <a href="about.html">ABOUT</a>
+        </div>
+    </div>
+  </div>
+
+  <div style="height: 100px; padding: 0px 0px 0px">
+    <div id="navbar"> 
+      <div class="midnav">
+        <a href="VideoGameDevelopmentClub.html">Video Game Development Club</a>
+        <a class="active" href="ICSStudentCouncil.html">Information & Computer Science Student Council</a>
+      </div>
+    </div>
+</div>
+
+<div style="width: 100%;">
+  <div style="width: 45%; height: 100px; margin-left: 5%;">
+    <h4>
+      Graphic Design
+    </h4>
+    <img src="icsscImages/DarkModeWorkshop (Long).png" alt="" id="icssc1" class="image">
+    <img src="icsscImages/WEBJAM.png" alt="" id="icssc2" class="image">
+    <img src="icsscImages/Virtual Ics Banquet.png" alt="" id="icssc3" class="image">
+    <img src="icsscImages/Jam for Change (Wide).png" alt="" id="icssc4" class="image">
+    <img src="icsscImages/ICSSC Mock Behavioral Interview (rectangle).png" alt="" id="icssc5" class="image">
+    <h4>
+      Graphic Design but with Movement
+    </h4>
+    <img src="icsscImages/BoardGif.gif" alt="" id="icssc6" class="image">
+    <img src="icsscImages/Bits&Bytes (Wide).gif" alt="" id="icssc7" class="image">
+    <img src="icsscImages/InternshipPanel (Wide).gif" alt="" id="icssc8" class="image">
+  </div>
+  <div style="margin-left: 52%; margin-right: 5%; height: 100px; padding: 5px"> 
+      <div class="textHead">
+        Information & Computer Science Student Council @ UCI
+      </div>
+      <div class="text">
+        <br>
+        ICS Student Council aims to improve the lives of the students professionally, socially, and academically and deepen the connections students have with the school of Information & Computer Science.
+      </div>
+      <div class="textSubHead">
+        Graphic Design
+      </div>
+      <div class="text">
+        While our club does not have an official style guide, I aimed to create graphics that were gave more of a fun and lighthearted vibe to them.
+      </div>
+      <div class="textSubHead">
+        Graphic Design but with Movement
+      </div>
+      <div class="text">
+        I wanted to take graphic design a step further and create eye catching graphics that our community will remember to increase student turn out at events.
+        <br>
+        <br>
+      </div>
+
+  </div>
+</div>
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+
+
+</body>
+</html>

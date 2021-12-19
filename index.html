@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Bianca Ysabelle Victoria
+EMAIL: byvictor@uci.edu
+-->
+
+<head>
+  <!-- RESPONSIVE DESIGN -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8">
+  <meta name="author" content="Bianca Victoria">
+  <meta name="description" content="Graphic design portfolio">
+   <!-- you would link to an external stylesheet here! -->
+
+  <!-- STYLESHEETS -->
+  <!-- Font Styles -->
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <!-- Position Style -->
+  <link href="css/site-style.css" rel="stylesheet" type="text/css"/>
+  <!-- Position Styles -->
+  <link href="css/slider.css" rel="stylesheet" type="text/css"/>
+  <!-- Navigation Bar Style -->
+  <link href="css/navStyle.css" rel="stylesheet" type="text/css"/>
+  <!-- 2nd Navigation Bar Style -->
+  <link href="css/midnavStyle.css" rel="stylesheet" type="text/css"/>
+  <!-- About Style -->
+  <!-- <link href="css/about.css" rel="stylesheet" type="text/css"/>    -->
+  <!-- image style -->
+  <link href="css/imagestyle.css" rel="stylesheet" type="text/css"/>
+
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Mukta" rel ="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel ="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cairo" rel ="stylesheet">
+
+   <!-- you would also link to Bootstrap here! -->
+  <title>Bianca Victoria Portfolio</title>
+  <script src="jquery.min.js"></script>
+  <script type="text/javascript" src="js/tom.js"></script>
+  <script type="text/javascript" src="js/sticky.js"></script>
+  <style>
+
+    
+  </style>
+</head>
+<body>
+
+  <!-- Fixes bg problem, but now blocks other components-->
+  
+
+  <div style="width: 100%;">
+    <div style="width: 50%; height: 100px; float: left; "> 
+        <h1> BIANCA VICTORIA </h1>
+        <h2>Graphic Designer</h2>
+    </div>
+    <div style="margin-left: 50%; height: 100px; padding: 0px 0px 0px"> 
+        <div class="topnav">
+          <a class="active" href="index.html">VIDEO GAME PROJECTS</a>
+          <a href="VideoGameDevelopmentClub.html">SOCIAL MEDIA & GRAPHIC DESIGN</a>
+          <a href="about.html">ABOUT</a>
+        </div>
+    </div>
+  </div>
+
+  <div style="height: 100px; padding: 0px 0px 0px"> 
+    <div id="navbar">
+      <div class="midnav">
+        <a class="active" href="index.html">Tournament of Magirus</a>
+        <a href="ChronodelverGame.html">Chronodelver</a>
+        <a href="Momentum.html">Momentum</a>
+        <a href="FoolsGold.html">Fool's Gold</a>
+      </div>
+    </div>
+</div>
+
+<div style="width: 100%;">
+  <div style="width: 45%; height: 100px; margin-left: 5%;">
+    <h4>
+      Production
+    </h4>
+    <img src="tomImages/MainBackground.png" alt="" id="mainTom" class="image">
+
+        <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+
+
+    <img src="tomImages/productionSchedule.png" alt="" id="prodTom" class="image">
+    <img src="tomImages/ingameScreen.png" alt="" id="gameTom" class="image">
+    <h4>
+      2D Art
+    </h4>
+    <img src="tomImages/CharacterIcons.JPG" alt="" id="iconTom" class="image">
+    <img src="tomImages/CharacterSprites.JPG" alt="" id="spriteTom" class="image">
+    <h5>
+      Three classes of our characters are druid, necromancer, and fire mage.
+    </h5>
+    <img src="tomImages/a.JPG" alt="" id="a" >
+    <img src="tomImages/b.JPG" alt="" id="b" >
+    <img src="tomImages/c.JPG" alt="" id="c" >
+    <img src="tomImages/d.JPG" alt="" id="d" >
+    <img src="tomImages/e.JPG" alt="" id="e" >
+    <img src="tomImages/f.JPG" alt="" id="f" >
+    <img src="tomImages/g.JPG" alt="" id="g" >
+    <img src="tomImages/h.JPG" alt="" id="h" >
+    <img src="tomImages/i.JPG" alt="" id="i" >
+    <img src="tomImages/j.JPG" alt="" id="j" >
+    <img src="tomImages/k.JPG" alt="" id="k" >
+    <img src="tomImages/l.JPG" alt="" id="l" >
+    <h4>
+      UI
+    </h4>
+    <img src="tomImages/spellbookUI.png" alt="" id="spellTom" class="image">
+  </div>
+  <div style="margin-left: 52%; margin-right: 5%; height: 100px; padding: 5px"> 
+      <div class="textHead">
+        Tournament of Magirus
+      </div>
+      <div class="text">
+        <br>
+        Tournament of Magirus is a turn-based fantasy RPG where you battle against other sorcerers with whimsical creatures along your side!
+      </div>
+      <div class="textSubHead">
+        Production
+      </div>
+      <div class="text">
+        Scheduled weekly tasks, transitioning to agile development to improve productivity. I also organized playtest feedback!
+      </div>
+      <div class="textSubHead">
+        2D Art
+      </div>
+      <div class="text">
+        Created illustrations, 2D player sprites, and 2D creature sprites in a fun, pixel style.
+      </div>
+      <div class="textSubHead">
+        UI
+      </div>
+      <div class="text">
+        Designed UI layout to fit our fantastical, magical aesthetic.
+        <br>
+        <br>
+      </div>
+
+  </div>
+</div>
+
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+
+</body>
+</html>

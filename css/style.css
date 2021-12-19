@@ -1,0 +1,68 @@
+
+html{
+    font-family: 'Cairo', sans-serif;
+}
+
+/*p{
+    color: #464646;
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+}*/
+
+
+/*body{
+    background-color: #f6f9fc;
+    color: #015272;;
+}*/
+
+
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    /*font-weight: bold;*/
+    font-size: 30px;
+    font-weight: normal;
+    /*font-style: oblique;*/
+    /*font-style: oblique;*/
+    
+    /*background-color: rgb(173, 222, 255);*/
+}
+
+
+h2{
+    color: #f5f51b;
+    text-align: left;
+    font-family: 'Cairo', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    padding: 24px 10px 0px;
+}
+
+h4{
+    color: #0a0a0a;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.2em;
+}
+
+h5{
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.2em;
+}
+
+
+/*Information Works Boxes*/
+
+.info_box {
+    background-color: rgb(255, 183, 219);
+    overflow: hidden;
+    margin-bottom: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2em 4em 2.8em;
+}
+
+
+
+//the best games aren't created by a team,
+//but games are best created by a team

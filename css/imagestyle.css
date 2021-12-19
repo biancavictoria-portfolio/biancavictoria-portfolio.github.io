@@ -1,0 +1,485 @@
+.image{
+    width: 100%;
+}
+
+/* TOM IMAGES BIGGER */
+
+#a {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 22%;
+}
+
+#a:hover {opacity: 0.7;}
+
+#b {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 22%;
+}
+
+#c {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 25%;
+}
+
+#d {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 27%;
+}
+
+#e {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 20%;
+}
+
+#f {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 25%;
+}
+
+#g {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 27%;
+}
+
+#h {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 24%;
+}
+
+#i {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 19%;
+}
+
+#j {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 19%;
+}
+
+#k {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 26%;
+}
+
+#l {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 32%;
+}
+
+#CharacterIcons {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+#CharacterSprites {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+#mainTom {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%
+  }
+
+#mainTom:hover {opacity: 0.7;}
+
+#prodTom {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#prodTom:hover {opacity: 0.7;}
+
+#gameTom {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#gameTom:hover {opacity: 0.7;}
+
+#iconTom {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#iconTom:hover {opacity: 0.7;}
+
+#spriteTom {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#spriteTom:hover {opacity: 0.7;}
+
+#spellTom {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#spellTom:hover {opacity: 0.7;}
+
+/* MomentumImages */
+#mom1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#mom1:hover {opacity: 0.7;}
+
+#mom2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#mom2:hover {opacity: 0.7;}
+
+#mom3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#mom3:hover {opacity: 0.7;}
+
+#mom4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#mom4:hover {opacity: 0.7;}
+
+#mom5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#mom5:hover {opacity: 0.7;}
+
+#mom6 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#mom6:hover {opacity: 0.7;}
+
+/* ChronodelverImages */
+#chron1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#chron1:hover {opacity: 0.7;}
+
+#chron2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#chron2:hover {opacity: 0.7;}
+
+#chron3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#chron3:hover {opacity: 0.7;}
+
+#chron4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#chron4:hover {opacity: 0.7;}
+
+#chron5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#mom5:hover {opacity: 0.7;}
+
+#chron6 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#chron6:hover {opacity: 0.7;}
+
+/* FoolsGoldImages */
+#fool1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#fool1:hover {opacity: 0.7;}
+
+#fool2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#fool2:hover {opacity: 0.7;}
+
+#fool3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#fool3:hover {opacity: 0.7;}
+
+#fool4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#fool4:hover {opacity: 0.7;}
+
+#fool5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#fool5:hover {opacity: 0.7;}
+
+/* VGDCImages */
+#vgdc1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#vgdc1:hover {opacity: 0.7;}
+
+#vgdc2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#vgdc2:hover {opacity: 0.7;}
+
+#vgdc3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#vgdc3:hover {opacity: 0.7;}
+
+#vgdc4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#vgdc4:hover {opacity: 0.7;}
+
+#vgdc5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#vgdc5:hover {opacity: 0.7;}
+
+#vgdc6 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#vgdc6:hover {opacity: 0.7;}
+
+/* ICSSCImages */
+#icssc1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#icssc1:hover {opacity: 0.7;}
+
+#icssc2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#icssc2:hover {opacity: 0.7;}
+
+#icssc3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#icssc3:hover {opacity: 0.7;}
+
+#icssc4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#icssc4:hover {opacity: 0.7;}
+
+#icssc5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#icssc5:hover {opacity: 0.7;}
+
+#icssc6 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#icssc6:hover {opacity: 0.7;}
+
+#icssc7 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#icssc7:hover {opacity: 0.7;}
+
+#icssc8 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+#icssc8:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    /*max-width: 700px;*/
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+.modal-content {
+    width: 100%;
+}
+}

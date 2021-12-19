@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>projects</title>
+    <script src="jquery.min.js"></script>
+    <style>
+        body{
+            background-image: url('bg.jpg');
+            background-size: cover;
+        }
+
+        
+        /*the slider dimension*/
+        .hi-slide{
+            position: relative;
+            /*width: 754px;
+            height: 292px;*/
+            width: 754px;
+            height: 292px;
+            border-radius: 50px;
+            margin: 115px auto 0;
+        }
+
+        /*slider button*/
+        .hi-slide .hi-next,
+        .hi-slide .hi-prev{
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 40px;
+            margin-top: -20px;
+            border-radius: 50px;
+            line-height: 40px;
+            text-align: center;
+            cursor: pointer;
+            background-color: white;
+            color: black;
+            transition: all 0.7s;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /*????*/
+        .hi-slide .hi-next:hover,
+        .hi-slide .hi-prev:hover{
+            opacity: 1;
+            background-color: white;
+        }
+
+        /*location of left slider*/
+        .hi-slide .hi-prev{ 
+            left: -60px;
+        }
+
+        .hi-slide .hi-prev::before{
+            content: '<';
+        }
+
+        /*location of right slider*/
+        .hi-slide .hi-next{
+            right: -59px;
+        }
+
+        .hi-slide .hi-next::before{
+            content: '>';
+        }
+
+        .hi-slide > ul{
+            list-style: none;
+            position: relative;
+            width: 754px;
+            height: 292px;
+            margin: 0;
+            padding: 0;
+        }
+
+        /*border of each picture*/
+        .hi-slide > ul > li{
+            overflow: hidden;
+            position: absolute;
+            z-index: 0;
+            left: 377px;
+            top: 147px;
+            width: 0px;
+            height: 0px;
+            margin: 0;
+            padding: 0;
+            border: 3px solid rgb(255, 186, 209);
+            cursor: pointer;
+            background-color: #333;
+        }
+
+        /*percent of how much you can see of the image*/
+        .hi-slide > ul > li > img{
+            width: 100%;
+            height: 100%;
+            background-position: center;
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!--<a href="oh.html"><img src="1.png" alt=""> </a>-->
+
+    <div class="slide hi-slide">
+        <div class="hi-prev"></div>
+        <div class="hi-next"></div>
+        <ul>
+            
+            <li><img src="1.png" alt=""></li>
+            <li><img src="2.png" alt=""></li>
+            <li><img src="3.png" alt=""></li>
+            <li><img src="4.png" alt=""></li>
+            <li><img src="5.png" alt=""></li>
+            <li><img src="6.png" alt=""></li>
+            <li><img src="7.png" alt=""></li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="jquery.hislide.js"></script>
+    <script>
+
+        $('.slide').hiSlide();
+        
+    </script>
+
+    
+
+</body>
+
+</html>

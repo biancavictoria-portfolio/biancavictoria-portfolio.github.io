@@ -1,0 +1,69 @@
+/* NAV BAR POSITION */
+.midnav {
+    display: flex;
+    justify-content: center;
+    /* float: center; */
+    /*background-color: #f6f9fc;*/
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+/* TEXT */
+.midnav a {
+    float: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 20px 0px 0px 0px;
+}
+
+/* HOVERED BY MOUSE */
+.midnav a:hover {
+    background-color: rgb(163, 163, 163); /*background hover*/
+    color: rgb(255, 255, 255);           /*font color hover*/
+}
+
+/* TAB COLOR WHEN ON THAT PAGE */
+.midnav a.active{
+    /*background-color: #f5f51b;*/
+    color: #f5f51b;
+    font-weight: normal;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 75%;
+  justify-content: center;
+  background-color: rgba(0,0,0,1);
+  
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 10px;
+  
+}

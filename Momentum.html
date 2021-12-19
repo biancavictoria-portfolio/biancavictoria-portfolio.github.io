@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Bianca Ysabelle Victoria
+EMAIL: byvictor@uci.edu
+-->
+
+<head>
+  <!-- RESPONSIVE DESIGN -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8">
+  <meta name="author" content="Bianca Victoria">
+  <meta name="description" content="Graphic design portfolio">
+   <!-- you would link to an external stylesheet here! -->
+
+  <!-- STYLESHEETS -->
+  <!-- Font Styles -->
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <!-- Position Style -->
+  <link href="css/site-style.css" rel="stylesheet" type="text/css"/>
+  <!-- Position Styles -->
+  <link href="css/slider.css" rel="stylesheet" type="text/css"/>
+  <!-- Navigation Bar Style -->
+  <link href="css/navStyle.css" rel="stylesheet" type="text/css"/>
+  <!-- 2nd Navigation Bar Style -->
+  <link href="css/midnavStyle.css" rel="stylesheet" type="text/css"/>
+  <!-- About Style -->
+  <!-- <link href="css/about.css" rel="stylesheet" type="text/css"/>    -->
+  <!-- image style -->
+  <link href="css/imagestyle.css" rel="stylesheet" type="text/css"/>
+
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Mukta" rel ="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel ="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cairo" rel ="stylesheet">
+
+   <!-- you would also link to Bootstrap here! -->
+  <title>Bianca Victoria Portfolio</title>
+  <script src="jquery.min.js"></script>
+  <script type="text/javascript" src="js/mom.js"></script>
+  <style>
+
+    
+  </style>
+</head>
+<body>
+
+  <!-- Fixes bg problem, but now blocks other components-->
+  
+
+  <div style="width: 100%;">
+    <div style="width: 50%; height: 100px; float: left; "> 
+        <h1> BIANCA VICTORIA </h1>
+        <h2>Game Producer, 2D Artist</h2>
+    </div>
+    <div style="margin-left: 50%; height: 100px; padding: 0px 0px 0px"> 
+        <div class="topnav">
+          <a class="active" href="index.html">VIDEO GAME PROJECTS</a>
+          <a href="VideoGameDevelopmentClub.html">SOCIAL MEDIA & GRAPHIC DESIGN</a>
+          <a href="about.html">ABOUT</a>
+        </div>
+    </div>
+  </div>
+
+  <div style="height: 100px; padding: 0px 0px 0px"> 
+    <div id="navbar">
+      <div class="midnav">
+        <a href="index.html">Tournament of Magirus</a>
+        <a href="ChronodelverGame.html">Chronodelver</a>
+        <a class="active" href="Momentum.html">Momentum</a>
+        <a href="FoolsGold.html">Fool's Gold</a>
+      </div>
+    </div>
+</div>
+
+<div style="width: 100%;">
+  <div style="width: 45%; height: 100px; margin-left: 5%;">
+    <h4>
+      Character Concept Art
+    </h4>
+    
+    <img src="momImages/a.png" id="mom1" class="image">
+    <img src="momImages/b.png" id="mom2" class="image">
+    <img src="momImages/c.png" id="mom3" class="image">
+    <img src="momImages/d.png" id="mom4" class="image">
+    <h4>
+      Enemy Drone Concept Art
+    </h4>
+    <img src="momImages/gun1.png" id="mom5" class="image">
+    <img src="momImages/gun2.png" id="mom6" class="image">
+
+    <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+  </div>
+  <div style="margin-left: 52%; margin-right: 5%; height: 100px; padding: 5px"> 
+      <div class="textHead">
+        Momentum
+      </div>
+      <div class="text">
+        <br>
+        Momentum is a cyberpunk platformer where you play as Libby and fight robotic enemies with her military augmented legs.
+      </div>
+      <div class="textSubHead">
+        Concept Art
+      </div>
+      <div class="text">
+        With enough intense evil robot and prosthetic research, I created character and enemy concepts for our dystopian cyberpunk world. I also created the sprite illustration of Libby. 
+        <br>
+        <br>
+      </div>
+      <img src="momImages/run.gif" alt="" class="image">
+
+  </div>
+</div>
+
+
+
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+
+
+
+
+</body>
+</html>

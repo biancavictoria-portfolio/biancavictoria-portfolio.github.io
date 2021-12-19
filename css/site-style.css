@@ -1,0 +1,101 @@
+/* BODY POSITION */
+body{
+    width: 75%;      
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+
+/* TEXT POSITION */
+h1{
+    /*margin: 0px 0px 50px;
+    padding: 0.7em;*/
+    float: left;
+    padding-right: 8.5px;
+}
+
+/* Text alongside images */
+
+.textHead{
+    color: #000000;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.3em;
+    text-align: left;
+    background: #f5f51b;
+    margin: -100px 0px -5px 0px;
+    padding: 3px;
+    padding-left: 20px;
+    font-weight: bold;
+    
+}
+
+.textSubHead{
+    color: #ffffff;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    /* background: rgb(0, 0, 0); */
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 20px;
+   
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text {
+    display: flex;
+    /*float: right;*/
+    /*background-color: #f6f9fc;*/
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'Cairo', sans-serif;
+    /* background-color: rgb(0, 0, 0); */
+    text-align: left;
+    margin: 0px 0px -20px 0px;
+    padding-left: 20px;
+    padding-bottom: 2px;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    padding: 0px;
+    font-weight: bold;
+}
+
+h5{
+    color: white;
+    text-align: center;
+    padding: 0px;
+    font-weight: normal;
+}
+
+
+body {
+    /* background: linear-gradient(358deg, #2f2f2f, #000000); */
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(47,47,47,1) 29%, rgba(59,59,59,1) 100%) fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

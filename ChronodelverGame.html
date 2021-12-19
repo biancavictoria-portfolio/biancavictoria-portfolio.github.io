@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Bianca Ysabelle Victoria
+EMAIL: byvictor@uci.edu
+-->
+
+<head>
+  <!-- RESPONSIVE DESIGN -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8">
+  <meta name="author" content="Bianca Victoria">
+  <meta name="description" content="Graphic design portfolio">
+   <!-- you would link to an external stylesheet here! -->
+
+  <!-- STYLESHEETS -->
+  <!-- Font Styles -->
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <!-- Position Style -->
+  <link href="css/site-style.css" rel="stylesheet" type="text/css"/>
+  <!-- Position Styles -->
+  <link href="css/slider.css" rel="stylesheet" type="text/css"/>
+  <!-- Navigation Bar Style -->
+  <link href="css/navStyle.css" rel="stylesheet" type="text/css"/>
+  <!-- 2nd Navigation Bar Style -->
+  <link href="css/midnavStyle.css" rel="stylesheet" type="text/css"/>
+  <!-- About Style -->
+  <!-- <link href="css/about.css" rel="stylesheet" type="text/css"/>    -->
+  <!-- image style -->
+  <link href="css/imagestyle.css" rel="stylesheet" type="text/css"/>
+
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Mukta" rel ="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel ="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cairo" rel ="stylesheet">
+
+   <!-- you would also link to Bootstrap here! -->
+  <title>Bianca Victoria Portfolio</title>
+  <script src="jquery.min.js"></script>
+  <script type="text/javascript" src="js/chron.js"></script>
+  <style>
+
+    
+  </style>
+</head>
+<body>
+
+  <!-- Fixes bg problem, but now blocks other components-->
+  
+
+  <div style="width: 100%;">
+    <div style="width: 50%; height: 100px; float: left; "> 
+        <h1> BIANCA VICTORIA </h1>
+        <h2>Game Producer, 2D Artist</h2>
+    </div>
+    <div style="margin-left: 50%; height: 100px; padding: 0px 0px 0px"> 
+        <div class="topnav">
+          <a class="active" href="index.html">VIDEO GAME PROJECTS</a>
+          <a href="VideoGameDevelopmentClub.html">SOCIAL MEDIA & GRAPHIC DESIGN</a>
+          <a href="about.html">ABOUT</a>
+        </div>
+    </div>
+  </div>
+
+  <div style="height: 100px; padding: 0px 0px 0px"> 
+    <div id="navbar">
+      <div class="midnav">
+        <a href="index.html">Tournament of Magirus</a>
+        <a class="active" href="ChronodelverGame.html">Chronodelver</a>
+        <a href="Momentum.html">Momentum</a>
+        <a href="FoolsGold.html">Fool's Gold</a>
+      </div>
+    </div>
+</div>
+
+<div style="width: 100%;">
+  <div style="width: 45%; height: 100px; margin-left: 5%;">
+    <h4>
+      Production
+    </h4>
+    <img src="chronoImages/productionSched.png" alt="" id="chron1" class="image">
+    <h4>
+      Concept Art
+    </h4>
+    <img src="chronoImages/slimeConcept.png" alt="" id="chron2" class="image">
+    <img src="chronoImages/beetleFront.png" alt="" id="chron3" class="image"> 
+    <img src="chronoImages/beetleSide.png" alt="" id="chron4" class="image">
+    <img src="chronoImages/TimeLichConcept.png" alt="" id="chron5" class="image">
+    <h4>
+      Illustration
+    </h4>
+    <img src="chronoImages/TimeLich.png" alt="" id="chron6" class="image">
+    
+  </div>
+  <div style="margin-left: 52%; margin-right: 5%; height: 100px; padding: 5px"> 
+      <div class="textHead">
+        Chronodelver
+      </div>
+      <div class="text">
+        <br>
+        Chronodelver is a space fantasy roguelike where you will fight enemies to save the cursed space tower from the evil Time Lich.
+      </div>
+      <div class="textSubHead">
+        Production
+      </div>
+      <div class="text">
+        Using agile development, I created task schedules for a team of 7 in Google Sheets. I also created dependency flow charts to reduce tasks from being blocked.
+      </div>
+      <div class="textSubHead">
+        2D Art
+      </div>
+      <div class="text">
+        Created character/enemy concept art and illustrated 2D characters in a VN art style.  
+        <br>
+        <br>
+      </div>
+
+  </div>
+</div>
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- The Close Button -->
+      <span class="close">&times;</span>
+  
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="img01">
+  
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+
+      <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+
+</body>
+</html>

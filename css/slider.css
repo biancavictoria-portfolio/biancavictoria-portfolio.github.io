@@ -1,0 +1,90 @@
+
+
+
+/*the slider dimension*/
+.hi-slide{
+    position: relative;
+    /*width: 754px;
+    height: 292px;*/
+    width: 754px;
+    height: 292px;
+    border-radius: 50px;
+    margin: 1% auto 0;
+}
+
+/*slider button*/
+.hi-slide .hi-next,
+.hi-slide .hi-prev{
+    position: absolute;
+    top: 90%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: all 0.7s;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*????*/
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev:hover{
+    opacity: 1;
+    background-color: #f5f51b;
+}
+
+/*location of left slider*/
+.hi-slide .hi-prev{ 
+    left: -15em;
+}
+
+.hi-slide .hi-prev::before{
+    content: '<';
+}
+
+/*location of right slider*/
+.hi-slide .hi-next{
+    right: -15em;
+}
+
+.hi-slide .hi-next::before{
+    content: '>';
+}
+
+.hi-slide > ul{
+    list-style: none;
+    position: relative;
+    width: 754px;
+    height: 292px;
+    margin: 0;
+    padding: 0;
+}
+
+/*border of each picture*/
+.hi-slide > ul > li{
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    left: 377px;
+    top: 147px;
+    width: 0px;
+    height: 0px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: #333;
+}
+
+/*percent of how much you can see of the image*/
+.hi-slide > ul > li > img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+
+}

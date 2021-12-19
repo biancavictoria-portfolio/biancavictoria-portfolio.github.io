@@ -1,0 +1,159 @@
+
+h3{
+    color: #000000;
+    font-family: 'Cairo', sans-serif;
+    font-size: 3em;
+    text-align: left;
+    background: yellow;
+    margin: -100px 0px -20px 0px;
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+
+
+/* BIO TEXT */
+/* text PROPERTIES */
+.text {
+    display: flex;
+    /*float: right;*/
+    /*background-color: #f6f9fc;*/
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-family: 'Cairo', sans-serif;
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    margin: 0px 0px -20px 0px;
+    padding: 20px;
+}
+
+/* text POSITION in image-style */
+.text a {
+    /*color: #d5dfff;*/
+    
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    
+}
+
+/* UNDER TEXT */
+/* BIO TEXT */
+/* text PROPERTIES */
+.text2 {
+    display: flex;
+    /*float: right;*/
+    /*background-color: #f6f9fc;*/
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 1.15em;
+    font-family: 'Cairo', sans-serif;
+    text-align: left;
+    margin: 0px 0px -5px 0px;
+    padding: 10px;
+}
+
+/* text POSITION in image-style */
+.text2 a {
+    /*color: #d5dfff;*/
+    
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    
+}
+
+/* Other Websites */
+/* text PROPERTIES */
+.text3 {
+    display: flex;
+    /*float: right;*/
+    /*background-color: #f6f9fc;*/
+    overflow: hidden;
+    color: #000000;
+    font-size: 1.15em;
+    font-family: 'Cairo', sans-serif;
+    text-align: left;
+    background-color: rgb(36, 216, 240);
+    font-weight: bold;
+}
+
+/* text POSITION in image-style */
+.text3 a {
+    /*color: #d5dfff;*/
+    
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    
+}
+
+.text4 {
+    display: flex;
+    /*float: right;*/
+    /*background-color: #f6f9fc;*/
+    overflow: hidden;
+    color: #000000;
+    font-size: 1.15em;
+    font-family: 'Cairo', sans-serif;
+    text-align: left;
+    background-color: rgb(240, 60, 135);
+    font-weight: bold;
+}
+
+/* text POSITION in image-style */
+.text4 a {
+    /*color: #d5dfff;*/
+    
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    
+}
+
+/* text POSITION in image-style */
+.text5 {
+    /*color: #d5dfff;*/
+    
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    color: #052c2c;
+    background-color: white;
+    padding-left: 10px;
+    
+}
+
+.text5:hover {opacity: 0.7;}
+
+/*IMAGES*/
+
+#me {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 50%;
+    
+}
+
+#mail {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 8%;
+    margin-top: 111px;
+    margin-left: 102px;
+    padding-top: 0px;
+    
+}
+
+#link {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 6%;
+    margin-left: 18px;
+    margin-top: -70px;
+    
+    
+}
+
+
+
+/* CLASS THAT CENTERS PICTURES */

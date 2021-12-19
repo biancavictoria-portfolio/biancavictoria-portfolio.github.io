@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Bianca Ysabelle Victoria
+EMAIL: byvictor@uci.edu
+-->
+
+<head>
+  <!-- RESPONSIVE DESIGN -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8">
+  <meta name="author" content="Bianca Victoria">
+  <meta name="description" content="Graphic design portfolio">
+   <!-- you would link to an external stylesheet here! -->
+
+  <!-- STYLESHEETS -->
+  <!-- Font Styles -->
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <!-- Position Style -->
+  <link href="css/site-style.css" rel="stylesheet" type="text/css"/>
+  <!-- Position Styles -->
+  <link href="css/slider.css" rel="stylesheet" type="text/css"/>
+  <!-- Navigation Bar Style -->
+  <link href="css/navStyle.css" rel="stylesheet" type="text/css"/>
+  <!-- 2nd Navigation Bar Style -->
+  <link href="css/midnavStyle.css" rel="stylesheet" type="text/css"/>
+  <!-- About Style -->
+  <!-- <link href="css/about.css" rel="stylesheet" type="text/css"/>    -->
+  <!-- image style -->
+  <link href="css/imagestyle.css" rel="stylesheet" type="text/css"/>
+
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Mukta" rel ="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel ="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cairo" rel ="stylesheet">
+
+   <!-- you would also link to Bootstrap here! -->
+  <title>Bianca Victoria Portfolio</title>
+  <script src="jquery.min.js"></script>
+  <script type="text/javascript" src="js/fool.js"></script>
+  <style>
+
+    
+  </style>
+</head>
+<body>
+
+  <!-- Fixes bg problem, but now blocks other components-->
+  
+
+  <div style="width: 100%;">
+    <div style="width: 50%; height: 100px; float: left; "> 
+        <h1> BIANCA VICTORIA </h1>
+        <h2>Game Producer, 2D Artist</h2>
+    </div>
+    <div style="margin-left: 50%; height: 100px; padding: 0px 0px 0px"> 
+        <div class="topnav">
+          <a class="active" href="index.html">VIDEO GAME PROJECTS</a>
+          <a href="VideoGameDevelopmentClub.html">SOCIAL MEDIA & GRAPHIC DESIGN</a>
+          <a href="about.html">ABOUT</a>
+        </div>
+    </div>
+  </div>
+
+  <div style="height: 100px; padding: 0px 0px 0px"> 
+    <div id="navbar">
+      <div class="midnav">
+        <a href="index.html">Tournament of Magirus</a>
+        <a href="ChronodelverGame.html">Chronodelver</a>
+        <a href="Momentum.html">Momentum</a>
+        <a class="active" href="FoolsGold.html">Fool's Gold</a>
+      </div>
+    </div>
+</div>
+
+<div style="width: 100%;">
+  <div style="width: 45%; height: 100px; margin-left: 5%;">
+    <h4>
+      Production
+    </h4>
+    <img src="foolImages/mainmenu.png" alt="" id="fool1" class="image">
+    <img src="foolImages/productionSchedule.png" alt="" id="fool2" class="image">
+    <h4>
+      2D Art
+    </h4>
+    <img src="foolImages/ingame1.png" alt="" id="fool3" class="image">
+    <img src="foolImages/ingame2.png" alt="" id="fool4" class="image">
+    <img src="foolImages/ingame3.png" alt="" id="fool5" class="image">
+  </div>
+  <div style="margin-left: 52%; margin-right: 5%; height: 100px; padding: 5px"> 
+      <div class="textHead">
+        Fool's Gold
+      </div>
+      <div class="text">
+        <br>
+        You play as Jim, a billionaire, who falls in love with Cathy, a humble girl from the countryside. In order to win her over, Jim must prove that he's not consumed 
+        by materialism and riches. Fool's Gold is a 2D platformer where you avoid gold coins because they make you heavier and decrease your jump height.
+        </div>
+      <div class="textSubHead">
+        Production
+      </div>
+      <div class="text">
+        In a one week game jam, I organized tasks for a team of 4 in 3 sprints. For a short time frame, daily checkins were essential and I made sure to log progress in our Google Sheet and Trello.
+      </div>
+      <div class="textSubHead">
+        2D Art
+      </div>
+      <div class="text">
+        Created main menu illustartion, background, platform, obstacles, and female character sprite.
+      </div>
+        <br>
+        <br>
+      </div>
+
+  </div>
+</div>
+
+ <!-- The Modal -->
+ <div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+
+</body>
+</html>
