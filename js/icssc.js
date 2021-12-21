@@ -13,7 +13,8 @@ function imageBigger() {
   var img6 = document.getElementById("icssc6");
   var img7 = document.getElementById("icssc7");
   var img8 = document.getElementById("icssc8");
-
+  var img9 = document.getElementById("icssc9");
+  var img10 = document.getElementById("icssc10");
  
 
   var modalImg = document.getElementById("img01");
@@ -67,6 +68,19 @@ function imageBigger() {
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
   }
+
+  img9.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+
+  img10.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+
 
   // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];

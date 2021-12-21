@@ -5,6 +5,8 @@
     float: right;
     /*background-color: #f6f9fc;*/
     overflow: hidden;
+    margin-top: 0px;
+    
 }
 
 /* TEXT */
@@ -12,17 +14,17 @@
     float: left;
     color: #000000;
     text-align: center;
-    padding: 10px 16px;
+    padding: 7px 16px;
     text-decoration: none;
     font-family: 'Cairo', sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: normal;
-    margin: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 /* HOVERED BY MOUSE */
 .topnav a:hover {
-    background-color: rgb(163, 163, 163); /*background hover*/
+    background-color: #71dbee; /*background hover*/
     color: rgb(41, 41, 41);           /*font color hover*/
 }
 

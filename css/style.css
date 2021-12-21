@@ -3,17 +3,16 @@ html{
     font-family: 'Cairo', sans-serif;
 }
 
-/*p{
-    color: #464646;
-    font-family: 'Mukta', sans-serif;
-    font-size: 18px;
-}*/
 
-
-/*body{
-    background-color: #f6f9fc;
-    color: #015272;;
-}*/
+/* the title */
+.h8 {
+    font-family: 'Cairo', sans-serif;
+    color: #000000;
+    font-size: 1.6em;
+    height: 0px;
+    width: 100%;
+    padding-left: 1.2em;
+}
 
 
 h1{
@@ -21,7 +20,7 @@ h1{
     text-align: center;
     font-family: 'Cairo', sans-serif;
     /*font-weight: bold;*/
-    font-size: 30px;
+    font-size: 33px;
     font-weight: normal;
     /*font-style: oblique;*/
     /*font-style: oblique;*/
@@ -30,15 +29,15 @@ h1{
 }
 
 
-h2{
+/* h2{
     color: #1bd4f5;
-    text-align: left;
     font-family: 'Cairo', sans-serif;
     font-weight: normal;
-    font-size: 17px;
-    padding: 24px 10px 0px;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-bottom: 30px;
     font-weight: bold;
-}
+} */
 
 h4{
     color: #0a0a0a;
@@ -63,4 +62,45 @@ h5{
     padding: 0.2em 4em 2.8em;
 }
 
+/* How image gallery is set */
 
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 50%; /*Width of column*/
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

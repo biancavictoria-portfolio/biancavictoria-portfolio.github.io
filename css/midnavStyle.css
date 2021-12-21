@@ -1,37 +1,42 @@
 /* NAV BAR POSITION */
 .midnav {
     display: flex;
-    justify-content: center;
-    /* float: center; */
-    /*background-color: #f6f9fc;*/
     overflow: hidden;
-    /* padding-bottom: 5px; */
+    margin: 0;
+    width: 60%;
+    margin-left:20%;
+    /* border: 5px solid #FFFF00; */
+    padding: 10px;
+    justify-content: center;
+    
 }
 
 /* TEXT */
 .midnav a {
     float: center;
-    color: #000000;
+    color: #a5a4a4;
     text-align: center;
     padding: 0px 16px;
     text-decoration: none;
     font-family: 'Cairo', sans-serif;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: normal;
     margin: 20px 0px 0px 0px;
+    
 }
 
 /* HOVERED BY MOUSE */
 .midnav a:hover {
-    background-color: rgb(163, 163, 163); /*background hover*/
+    background-color: #71dbee; /*background hover*/
     color: rgb(41, 41, 41);           /*font color hover*/
 }
 
 /* TAB COLOR WHEN ON THAT PAGE */
 .midnav a.active{
     /*background-color: #f5f51b;*/
-    color: #1bd4f5;
+    color: rgb(0, 0, 0);
     font-weight: normal;
+    background-color: #c3f6ff;
 }
 
 /* Style the navbar */

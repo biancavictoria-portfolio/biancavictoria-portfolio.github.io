@@ -3,7 +3,6 @@ body{
     width: 75%;      
     margin-left: auto;
     margin-right: auto;
-    padding: 15px;
 }
 
 
@@ -17,6 +16,26 @@ h1{
 }
 
 /* Text alongside images */
+
+.titleHead{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.1em;
+    padding-top: 0.9em;
+}
+
+.subtitleHead{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+    padding-bottom: 0.7em;
+    width: 90%;
+    float: center;
+    margin-left: 5%;
+    color: rgb(99, 99, 99);
+}
 
 .textHead{
     color: #000000;
