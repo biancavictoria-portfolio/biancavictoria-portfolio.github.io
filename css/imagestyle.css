@@ -432,7 +432,55 @@
 
 #icssc10:hover {opacity: 0.7;}
 
+/* MerchImages */
+#merch1 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
+#merch1:hover {opacity: 0.7;}
+
+#merch2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#merch2:hover {opacity: 0.7;}
+
+/* UIImages */
+#ui1 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#ui1:hover {opacity: 0.7;}
+
+#ui2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#ui2:hover {opacity: 0.7;}
+
+#ui3 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#ui3:hover {opacity: 0.7;}
+
+#ui4 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#ui4:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {

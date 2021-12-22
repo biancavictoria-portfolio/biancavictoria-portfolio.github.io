@@ -5,13 +5,12 @@ function imageBigger() {
 
   // Get the image and insert it inside the modal - use its "alt" text as a caption
   // Images
-  var img = document.getElementById("vgdc1");
-  var img2 = document.getElementById("vgdc2");
-  var img3 = document.getElementById("vgdc3");
-  var img4 = document.getElementById("vgdc4");
-  var img5 = document.getElementById("vgdc5");
-  var img6 = document.getElementById("vgdc6");
-  var img7 = document.getElementById("vgdc7");
+  var img = document.getElementById("merch1");
+  var img2 = document.getElementById("merch2");
+  // var img3 = document.getElementById("ui1");
+  // var img4 = document.getElementById("ui2");
+  // var img5 = document.getElementById("ui3");
+  // var img6 = document.getElementById("ui4");
  
 
   var modalImg = document.getElementById("img01");
@@ -30,35 +29,35 @@ function imageBigger() {
     captionText.innerHTML = this.alt;
   }
 
-  img3.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-  }
+  // img3.onclick = function(){
+  //   modal.style.display = "block";
+  //   modalImg.src = this.src;
+  //   captionText.innerHTML = this.alt;
+  // }
 
-  img4.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-  }
+  // img4.onclick = function(){
+  //   modal.style.display = "block";
+  //   modalImg.src = this.src;
+  //   captionText.innerHTML = this.alt;
+  // }
 
-  img5.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-  }
+  // img5.onclick = function(){
+  //   modal.style.display = "block";
+  //   modalImg.src = this.src;
+  //   captionText.innerHTML = this.alt;
+  // }
 
-  img6.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-  }
+  // img6.onclick = function(){
+  //   modal.style.display = "block";
+  //   modalImg.src = this.src;
+  //   captionText.innerHTML = this.alt;
+  // }
 
-  img7.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-  }
+  // img7.onclick = function(){
+  //   modal.style.display = "block";
+  //   modalImg.src = this.src;
+  //   captionText.innerHTML = this.alt;
+  // }
 
   // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];
